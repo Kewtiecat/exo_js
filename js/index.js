@@ -8,7 +8,13 @@ function displayText()
 
 for (let i=0; i<btn.length; i++) {
 
-    btn[i].addEventListener("click", displayText)
+    btn[i].addEventListener("click", displayText);
 }
 
+function rslt()
+{
+  console.log(eval(result.textContent))
+}
 
+let equal = document.querySelector(".equal")
+equal.addEventListener("click", rslt)
