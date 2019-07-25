@@ -1,7 +1,15 @@
 let btn = document.getElementsByClassName("btn");
 console.log(btn)
-let a = 
+let result = document.querySelector("result");
 
-function add {
-
+function displayText()
+{   
+    console.log(this.textContent)
 }
+
+for (let i=0; i=btn.length; i++) {
+
+    btn[i].addEventListener("click", displayText)
+}
+
+
