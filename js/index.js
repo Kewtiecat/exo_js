@@ -18,3 +18,11 @@ function rslt()
 
 let equal = document.querySelector(".equal")
 equal.addEventListener("click", rslt)
+
+let clear = document.getElementById("clear")
+clear.addEventListener("click", clean)
+
+function clean()
+{
+    result.textContent = result;
+}
