@@ -22,7 +22,15 @@ equal.addEventListener("click", rslt)
 let clear = document.getElementById("clear")
 clear.addEventListener("click", clean)
 
+let back = document.getElementById("return")
+back.addEventListener("click", retrn)
+
 function clean()
 {
-    result.textContent = result;
+    result.textContent = "";
+}
+
+function retrn()
+{
+    result.textContent = result.textContent.slice(0, -1);
 }
