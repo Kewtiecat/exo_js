@@ -5,6 +5,15 @@ body
 
 .calculatrice
 {
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
+
+.result
+{
+    background-color: black;
+    height: 5rem;
+    width: 100%;
+    border: none;
+}
+
