@@ -2,8 +2,8 @@ let btn = document.getElementsByClassName("btn");
 let result = document.querySelector(".result");
 
 function displayText()
-{   
-    result.textContent = this.textContent+result.textContent;
+{
+ result.textContent += this.value;
 }
 
 for (let i=0; i<btn.length; i++) {
