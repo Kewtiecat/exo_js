@@ -13,7 +13,7 @@ for (let i=0; i<btn.length; i++) {
 
 function rslt()
 {
-  console.log(eval(result.textContent))
+  result.textContent = (eval(result.textContent))
 }
 
 let equal = document.querySelector(".equal")
