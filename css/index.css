@@ -17,3 +17,9 @@ body
     border: none;
 }
 
+.nmbr
+{
+    margin: 0;
+    padding: 0;
+    width: 5rem;
+}
